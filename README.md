@@ -24,6 +24,19 @@ Após instalado, você deverá acessar a guia `Arquivo` → `Clonar repositório
 
 Além disso, é interessante que você tenha um bom editor para trabalhar com os códigos, dos quais eu recomendo o uso do, [Visual Studio Code](https://code.visualstudio.com/).
 
+### Executar esta cópia
+
+A autoria original de **Emanuel Roseira Guedes** e a [licença MIT](./LICENSE) permanecem preservadas. Para trabalhar com a cópia deste perfil, use Git, Node.js e npm:
+
+```sh
+git clone https://github.com/alvesvslucas/conhecendo-outro-framework.git
+cd conhecendo-outro-framework/livros-angular
+npm install
+npm start
+```
+
+O manifesto declara Angular 14 e TypeScript 4.7; não fixa Node em `engines`. O servidor informa a URL local. Na mesma pasta, `npm run build` e `npm test` estão disponíveis. Esses comandos não foram executados nesta revisão documental.
+
 ## 🔗 Procedimentos
 
 Durante o projeto foram desenvolvidos 03 procedimentos descritos abaixo:
@@ -77,9 +90,7 @@ Para a construção e execução do projeto foram utilizadas as seguintes tecnol
 
 ## 👥 Autor
 
-| Aluno                                                  | Matrícula    | E-mail                                      |
-| ------------------------------------------------------ | ------------ | ------------------------------------------- |
-| [Emanuel Roseira Guedes](https://github.com/guedesert) | 202212181407 | [📧](mailto:202212181407@alunos.estacio.br) |
+[Emanuel Roseira Guedes](https://github.com/guedesert), autor do projeto original.
 
 ## 📃 Licença
 
