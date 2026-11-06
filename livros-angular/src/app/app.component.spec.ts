@@ -26,10 +26,11 @@ describe('AppComponent', () => {
     expect(app.title).toEqual('livros-angular');
   });
 
-  it('should render title', () => {
+  it('renders catalog and new book navigation', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('livros-angular app is running!');
+    const links = Array.from(compiled.querySelectorAll('a.nav-link')).map(link => link.textContent?.trim());
+    expect(links).toEqual(['Catálogo', 'Novo']);
   });
 });
